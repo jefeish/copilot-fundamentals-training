@@ -1,8 +1,9 @@
-# Copilot Tour: Creating a Calculator App
+# Demo: First Copilot Interactions
 
-## Description
+### Description
 
 This tour showcases essential Copilot features by leveraging a small React Calculator App.
+> Note: Make sure you installed the NPM components and started the App
 
 # Inline Help
 
@@ -58,14 +59,16 @@ This tour showcases essential Copilot features by leveraging a small React Calcu
 
 #### 1. Insert this code...
 
-```javascript
-<a href="#" className="Header-link">
-About
-<a>
-&nbsp; &nbsp; &nbsp;
-```
+  - Sample
 
-Note: this code is broken, we will use Copilot to fix it.
+    ```javascript
+    <a href="#" className="Header-link">
+    About
+    <a>
+    &nbsp; &nbsp; &nbsp;
+    ```
+
+    >Note: this code is broken, we will use Copilot to fix it.
 
 - You should see the IDE giving you a syntax error.
 
