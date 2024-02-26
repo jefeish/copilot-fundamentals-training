@@ -1,0 +1,2 @@
+👋 Welcome to the Copilot & Copilot Chat, Codespaces Demo Experience!
+🔍 To start a demo, click "CODETOUR" in the bottom left corner, hover over an option, and press the arrow to start!
