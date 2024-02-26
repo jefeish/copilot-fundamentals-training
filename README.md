@@ -80,6 +80,10 @@ npm start
 
 ---
 
+## :warning: TO RUN THE TOUR 'MANUALLY', PLEASE REFER TO [COPILOT-OPERATIONS.MD](./copilot-operations.md)
+
+---
+
 ## Start the tour ...
 
 Here is a screenshot of what the CodeTour extension looks like in the IDE (VS-Code).
