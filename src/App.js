@@ -10,7 +10,6 @@ function App() {
       <GitHubHeader title="Calculator Demo" avatar="jefeish"/>
       <div className="MainContent">
         {/* Calculator */}
-
       </div>
     </div>
   );
