@@ -9,8 +9,12 @@
 
 **(Intent)**
 
-- Create a new file named `Calculator.test.js` in the `src/tests` directory.
+- Create a new file named `Calculator.test.js` in the `src/components` directory.
 - Import necessary testing libraries such as Jest.
+  - Sample 
+  ```
+  npm install --save-dev jest
+  ```
 - Set up the testing environment.
 
 ## Step 2: Write Test Cases
@@ -39,6 +43,10 @@
 ## Step 4: Run Tests
 
 - Run the unit tests using the testing command provided by Jest.
+  - Sample 
+  ```
+  npx jest
+  ```
 - Verify that all tests pass successfully.
 - Investigate and fix any failing tests if necessary.
 
