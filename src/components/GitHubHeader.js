@@ -5,6 +5,13 @@
  */
 import React, { useState } from 'react';
 
+/**
+ * Renders the GitHub header component.
+ * @param {Object} props - The component props.
+ * @param {string} props.title - The title of the header.
+ * @param {string} props.avatar - The avatar of the user.
+ * @returns {JSX.Element} The rendered GitHub header component.
+ */
 function GitHubHeader(props) {
   return (
 

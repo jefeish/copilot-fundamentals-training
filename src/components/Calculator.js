@@ -52,7 +52,7 @@ function Calculator() {
         if (char === '=') {
             number2 = parseFloat(displayValue);
 
-            // perform the calculation
+            // code to perform the calculator operations
 
             // round the result down to 2 decimal places
             result = Math.round(result * 100) / 100;
