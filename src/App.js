@@ -3,10 +3,6 @@ import './App.css';
 import React, { useState } from 'react'
 import GitHubHeader from './components/GitHubHeader'
 import Calculator from './components/Calculator.js'
-import Calculator from './components/Calculator.js';
-import React from 'react';
-import GitHubHeader from './components/GitHubHeader';
-import Calculator from './components/Calculator.js';
 
 function App() {
   return (
