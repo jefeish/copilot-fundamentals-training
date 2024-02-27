@@ -52,7 +52,7 @@ function Calculator() {
         if (char === '=') {
             number2 = parseFloat(displayValue);
 
-            // the code to perform the calculation
+            // perform the calculation
 
             // round the result down to 2 decimal places
             result = Math.round(result * 100) / 100;
@@ -67,8 +67,6 @@ function Calculator() {
             number1 = 0;
             number2 = 0;
             result = 0;
-
-            isNewNumber = true;
             return;
         }
 
@@ -81,8 +79,10 @@ function Calculator() {
     };
 
     return (
-        <div data-testid="calculator" className="calculator">
-            {displayValue}
+        <div data-testid="display" className="calculator">
+            <div  className="display">
+                {displayValue}
+            </div>
             <div>
                 <button className="key" onClick={() => handleNumberClick(1)}>1</button>
                 <button className="key" onClick={() => handleNumberClick(2)}>2</button>

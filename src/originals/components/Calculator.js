@@ -100,34 +100,34 @@ function Calculator() {
     };
 
     return (
-        <div class="calculator">
-            <div class="display">{displayValue}</div>
+        <div className="calculator">
+            <div data-testid="display" className="display">{displayValue}</div>
             <div>
-                <button class="key" onClick={() => handleNumberClick(1)}>1</button>
-                <button class="key" onClick={() => handleNumberClick(2)}>2</button>
-                <button class="key" onClick={() => handleNumberClick(3)}>3</button>
-                <button class="operator" onClick={() => handleKeyClick('+')}>+</button>
-                <button class="operator" onClick={() => handleKeyClick('/')}>/</button>
+                <button className="key" onClick={() => handleNumberClick(1)}>1</button>
+                <button className="key" onClick={() => handleNumberClick(2)}>2</button>
+                <button className="key" onClick={() => handleNumberClick(3)}>3</button>
+                <button className="operator" onClick={() => handleKeyClick('+')}>+</button>
+                <button className="operator" onClick={() => handleKeyClick('/')}>/</button>
             </div>
             <div>
-                <button class="key" onClick={() => handleNumberClick(4)}>4</button>
-                <button class="key" onClick={() => handleNumberClick(5)}>5</button>
-                <button class="key" onClick={() => handleNumberClick(6)}>6</button>
-                <button class="operator" onClick={() => handleKeyClick('-')}>-</button>
-                <button class="operator" onClick={() => handleKeyClick('*')}>*</button>
+                <button className="key" onClick={() => handleNumberClick(4)}>4</button>
+                <button className="key" onClick={() => handleNumberClick(5)}>5</button>
+                <button className="key" onClick={() => handleNumberClick(6)}>6</button>
+                <button className="operator" onClick={() => handleKeyClick('-')}>-</button>
+                <button className="operator" onClick={() => handleKeyClick('*')}>*</button>
             </div>
             <div>
-                <button class="key" onClick={() => handleNumberClick(7)}>7</button>
-                <button class="key" onClick={() => handleNumberClick(8)}>8</button>
-                <button class="key" onClick={() => handleNumberClick(9)}>9</button>
-                <button class="operator" onClick={() => handleKeyClick('%')}>%</button>
-                <button class="operator" onClick={() => handleKeyClick('^')}>^2</button>
+                <button className="key" onClick={() => handleNumberClick(7)}>7</button>
+                <button className="key" onClick={() => handleNumberClick(8)}>8</button>
+                <button className="key" onClick={() => handleNumberClick(9)}>9</button>
+                <button className="operator" onClick={() => handleKeyClick('%')}>%</button>
+                <button className="operator" onClick={() => handleKeyClick('^')}>^2</button>
             </div>
             <div>
-                <button class="key" onClick={() => handleNumberClick('.')}>.</button>
-                <button class="key" onClick={() => handleNumberClick(0)}>0</button>
-                <button class="key" onClick={() => handleKeyClick('C')}>C</button>
-                <button class="key, button-span-3" onClick={() => handleKeyClick('=')}>=</button>
+                <button className="key" onClick={() => handleNumberClick('.')}>.</button>
+                <button className="key" onClick={() => handleNumberClick(0)}>0</button>
+                <button className="key" onClick={() => handleKeyClick('C')}>C</button>
+                <button className="key, button-span-3" onClick={() => handleKeyClick('=')}>=</button>
             </div>
         </div>
     );
