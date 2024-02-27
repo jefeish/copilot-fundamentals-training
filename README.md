@@ -4,7 +4,34 @@
 
 # Copilot Operations Demo
 
-A demonstration for utilizing GitHub Copilot within Visual Studio Code. This demo highlights essential features of the Copilot extension for the benefit of class attendees.
+## Introduction
+
+### :warning: Note: The primary objective of this demo is not to complete the calculator app; that aspect serves as a guide for walking you through the exercise steps. If you don't achieve the exact results by the end, that's perfectly fine! What matters most is that users gain insight into how to use Copilot and Copilot Chat effectively.
+
+## Overview
+
+Our goal is to **acquaint you with Copilot's functionalities** and demonstrate diverse ways to interact effectively with Copilot.
+
+Copilot and Copilot Chat, while built on the same backend technology, serve distinct roles within your integrated development environment (IDE). To put it simply, **Copilot functions as a coding assistant**, responding to your in-code context, while **Copilot Chat operates as your research assistant**, enabling chat-based communication for more interactive collaboration with Copilot.
+
+As this exercise leverages Copilot for code suggestions, please note that Copilot's responses may vary depending on the context. We welcome this variability, as it showcases the dynamic capabilities of Copilot.
+
+For effective interaction with Copilot, it's essential to keep in mind that **Copilot benefits from your guidance and supervision!**
+ 
+ To use copilot's own words,
+
+![copilot](docs/images/copilot32.png) 
+***"I’m powered by AI, so surprises and mistakes are possible. Make sure to verify any generated code or suggestions, and share feedback so that we can learn and improve."***
+
+---
+## We Offer 2 Examples 
+
+### [REACT Calculator App](#react-calculator)
+### [Node Calculator App](demos/Node-calculator/README.md)
+
+---
+
+These are demonstrations for utilizing GitHub Copilot within Visual Studio Code. This demo highlights essential features of the Copilot extension for the benefit of class attendees.
 
 We employ the [CodeTour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) extension to guide you through an example of a React Calculator App. 
 
@@ -35,26 +62,7 @@ If you want to run this Demo on your local platform (no Codespaces, no Devcontai
 
 ---
 
-## Introduction
-
-### :warning: Note: The primary objective of this demo is not to complete the calculator app; that aspect serves as a guide for walking you through the exercise steps. If you don't achieve the exact results by the end, that's perfectly fine! What matters most is that users gain insight into how to use Copilot and Copilot Chat effectively.
-
-### Overview
-
-Our goal is to **acquaint you with Copilot's functionalities** and demonstrate diverse ways to interact effectively with Copilot.
-
-Copilot and Copilot Chat, while built on the same backend technology, serve distinct roles within your integrated development environment (IDE). To put it simply, **Copilot functions as a coding assistant**, responding to your in-code context, while **Copilot Chat operates as your research assistant**, enabling chat-based communication for more interactive collaboration with Copilot.
-
-As this exercise leverages Copilot for code suggestions, please note that Copilot's responses may vary depending on the context. We welcome this variability, as it showcases the dynamic capabilities of Copilot.
-
-For effective interaction with Copilot, it's essential to keep in mind that **Copilot benefits from your guidance and supervision!**
- 
- To use copilot's own words,
-
-![copilot](docs/images/copilot32.png) 
-***"I’m powered by AI, so surprises and mistakes are possible. Make sure to verify any generated code or suggestions, and share feedback so that we can learn and improve."***
-
----
+## REACT-Calculator
 
 ## Before you Start the Tour
 
