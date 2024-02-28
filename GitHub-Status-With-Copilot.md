@@ -88,3 +88,8 @@ npm install express ejs xml2js
 ---
 
 ## Step 5 - Run the Server
+
+--- 
+
+### Bonus Step - Tell Copilot to Add some CSS Styles (don't give specifics, be surprised)
+
