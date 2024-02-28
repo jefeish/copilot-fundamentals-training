@@ -66,7 +66,7 @@ npm install express ejs xml2js
 //   3.1. maps the parsed data to the required format: pubDate, title, link and description
 // 4. returns the parsed data from the RSS feed with the method 'read()'
 
-//import the required modules
+// import the required modules
 ```
 
 ### `rssServer.js`
