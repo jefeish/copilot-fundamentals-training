@@ -14,7 +14,6 @@ This exercise creates an MVC App that functions as an RSS Feeds client to report
 
 |Model|View|Controller|
 |---|---|---|
-|RssReader Class|Web Page (Html)|Web Server|
 |rssReader.js|status.ejs|rssServer.js|
 
 ### Requirments
