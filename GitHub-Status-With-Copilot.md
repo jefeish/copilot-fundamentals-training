@@ -33,7 +33,7 @@ This exercise creates an MVC App that functions as an RSS Feeds client to report
 ```
 mkdir -p src/views
 touch src/rssReader.js
-touch src/view/status.ejs
+touch src/views/status.ejs
 touch src/rssServer.js
 npm install express ejs xml2js
 ```
