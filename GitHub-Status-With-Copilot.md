@@ -91,5 +91,5 @@ npm install express ejs xml2js
 
 --- 
 
-### Bonus Step - Tell Copilot to Add some CSS Styles (don't give specifics, be surprised)
+## ❗Bonus Step - Tell Copilot to Add some CSS Styles (don't give specifics, be surprised)
 
