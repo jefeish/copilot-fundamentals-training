@@ -4,9 +4,9 @@ This exercise creates an MVC App that functions as an RSS Feeds client to report
 
 ## GitHub Feeds
 
-- Status: `https://www.githubstatus.com/history.rss`
+- Status: `[https://www.githubstatus.com/history.rss](https://www.githubstatus.com/history.rss)`
 
-- Features: `https://github.blog/changelog/label/copilot/`
+- Features: `[https://github.blog/changelog/label/copilot/](https://github.blog/changelog/label/copilot/feed/)`
 
 ## Exercise Outline
 
