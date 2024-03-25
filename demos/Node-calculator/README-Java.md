@@ -31,7 +31,7 @@ cd myCalculator
 touch Index.java
 touch Calculator.java
 mkdir test
-touch test/Calculator.test.java
+touch CalculatorTest.java
 ```
 
 ---
