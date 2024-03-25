@@ -1,14 +1,13 @@
-# Copilot Calculator Exercise (NodeJS)
+# Copilot Calculator Exercise (Java)
 
 - **Intent:** Give Directions
 - **Context:** Provide Examples
 - **Clarity:** Easy to Understand
 - **Specificity:** Precision in Detail
 
-A small demo project to exercise the basic capabilities of Copilot in your IDE. In this demo you should create a Node based calculator Module that you can access from the command-line via an `index.js` entry-point. We use copilot to help us with the content creation of the `calculator.js`, `index,js` and some Node packaging settings. Enjoy !
+A small demo project to exercise the basic capabilities of Copilot in your IDE. In this demo you should create a Java based `Calculator` class that you can access from the command-line via an `Index.java` entry-point. We use copilot to help us with the content creation of the `Calculator.java`, `Index,java` and some Node packaging settings. Enjoy !
 
 >Note: The demo/workshop only uses **Copilot** features to complete the solution.
-
 
 ## Pre-Requisits
 
@@ -21,36 +20,34 @@ A small demo project to exercise the basic capabilities of Copilot in your IDE. 
 ----
 ### Steps
 - create a project folder (eg.: `myCalulator/`, either in side this Repo or in a new project)
-- initialize the npm project (create package.json) 
-- create an `index.js` file
-- create a `calculator.js` file
+- create an `Index.java` file
+- create a `Calculator.java` file
 
 #### Here are some example instructions
 
 ```bash
 mkdir myCalculator
 cd myCalculator
-npm init
-touch index.js
-touch calculator.js
+touch Index.java
+touch Calculator.java
 mkdir test
-touch test/calculator.test.js
+touch test/Calculator.test.java
 ```
 
 ---
 
 # Let's start
 
-## 1. Write content for the `calculator.js` file
+## 1. Write content for the `Calculator.java` file
 
-### 1.1 Open the `calculator.js` file and add a description comment, explaining to Copilot what this file is for
+### 1.1 Open the `Calculator.java` file and add a description comment, explaining to Copilot what this file is for
 
 <details><summary>Help</summary>
 <p>
 
 ```node
 /**
- * @desciption: A calculator module that can add, subtract, multiply, modulo, 
+ * @desciption: A Calculator class that can add, subtract, multiply, modulo, 
  *              exponent and divide by taking in two numbers and an operator.
  *              It throws an error if the operator is invalid or if the second
  *              number is zero and the operator is division.  
@@ -83,25 +80,25 @@ Choose any of the suggested code samples and press `Accept Solution`, this will 
 
 ---
 
-## 2. Complete the `index.js` file
+## 2. Complete the `Index.java` file
 
-### 2.1 Open the `index.js` file and add a description comment, describing what this files itended use.
+### 2.1 Open the `Index.java` file and add a description comment, describing what this files itended use.
 
 <details><summary>Help</summary>
 <p>
 
 ```node
 /**
- * @description This is a simple function that takes in two numbers, an operator
- * and uses the calculator module to compute the results.
+ * @description This is a simple class that takes in two numbers, an operator
+ * and uses the calculator class to compute the results.
  * Usage:
- * node index2.js 1 + 2
- * node index2.js 1 - 2
- * node index2.js 1 * 2
- * node index2.js 1 / 2
+ * java Index 1 + 2
+ * java Index 1 - 2
+ * java Index 1 * 2
+ * java Index 1 / 2
  * 
  * Note: The * and ^ operators need to be escaped with a backslash, to prevent the shell from interpreting them.
- * Example: node index2.js 1 \* 2
+ * Example: java Index 1 \* 2
  * 
  */
  ```
@@ -122,12 +119,9 @@ Choose any of the suggested code samples and press `Accept Solution`, this will 
 
 ## 3. Run the program
 
-```node
-node index.js
-```
-or
-```node
-node index.js 2 + 3
+```java
+javac Index.java
+java Index 2 + 3
 ```
 
 ---
