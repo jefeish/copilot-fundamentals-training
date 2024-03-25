@@ -5,7 +5,7 @@
 - **Clarity:** Easy to Understand
 - **Specificity:** Precision in Detail
 
-## Step 1: Set Up Testing Environment
+## Step 1: Set Up The Test Environment
 
 **(Intent)**
 
@@ -27,9 +27,7 @@
   - Example:
 
   ```javascript
-  test(‘adds 1 + 2 to equal 3’, () => ( expect(calculate(1, 2 ‘+’)).toBe(3); });
-  
-  const testCases = [ { a: 1, b: 2, op: '+', expected: 3 } ]
+  test(‘adds 1 + 2 to equal 3’, () => ( expect(calculator(1, 2 ‘+’)).toBe(3); });
   ```
 
 ## Step 3: Implement Tests

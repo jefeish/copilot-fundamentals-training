@@ -1,25 +1,33 @@
-# Copilot Calculator Demo
+# Copilot Calculator Exercise
 
-A small demo project to exercise the basic capabilities of Copilot in ***Visual Studio Code***. In this demo you should create a Node based calculator Module that you can access from the command-line via an `index.js` entry-point. We use copilot/chat to help us with the content creation of the `calculator.js`, `index,js` and some Node packaging settings. Enjoy !
+- **Intent:** Give Directions
+- **Context:** Provide Examples
+- **Clarity:** Easy to Understand
+- **Specificity:** Precision in Detail
 
->Note: The demo/workshop uses **Copilot** & **Copilot Chat** features to complete the solution.
+A small demo project to exercise the basic capabilities of Copilot in your IDE. In this demo you should create a Node based calculator Module that you can access from the command-line via an `index.js` entry-point. We use copilot to help us with the content creation of the `calculator.js`, `index,js` and some Node packaging settings. Enjoy !
+
+>Note: The demo/workshop only uses **Copilot** features to complete the solution.
+
 
 ## Pre-Requisits
 
 - Make sure to have...
 
-<img width="50%" src="images/copilot-and-chat.png">
+<img width="10%" src="images/copilot.png">
 
-...correctly installed in Visual Studio Code
+...correctly installed in your IDE
 
 ----
-
-- create a project folder (eg.: `myCalulator/`)
-- initialize the npm project (create package.json)
+### Steps
+- create a project folder (eg.: `myCalulator/`, either in side this Repo or in a new project)
+- initialize the npm project (create package.json) 
 - create an `index.js` file
-- create a `calculator.js` file 
+- create a `calculator.js` file
 
-```
+#### Here are some example instructions
+
+```bash
 mkdir myCalculator
 cd myCalculator
 npm init
@@ -31,9 +39,14 @@ touch test/calculator.test.js
 
 ---
 
-## 1. Write the `calculator.js` file
+# Let's start
 
-### 1.1 Open the `calculator.js` file and add this description.
+## 1. Write content for the `calculator.js` file
+
+### 1.1 Open the `calculator.js` file and add a description comment, explaining to Copilot what this file is for
+
+<details><summary>Help</summary>
+<p>
 
 ```node
 /**
@@ -49,6 +62,9 @@ touch test/calculator.test.js
  * @returns {number} result of the operation
  */
 ```
+
+</p>
+</details>
 
 ---
 
@@ -67,15 +83,17 @@ Choose any of the suggested code samples and press `Accept Solution`, this will 
 
 ---
 
+## 2. Complete the `index.js` file
 
-## 2. Write the `index.js` file
+### 2.1 Open the `index.js` file and add a description comment, describing what this files itended use.
 
-### 2.1 Open the `index.js` file and add the description
+<details><summary>Help</summary>
+<p>
 
 ```node
 /**
- * @description This is a simple calculator that takes in two numbers and an operator
- * and returns the result of the calculation.
+ * @description This is a simple function that takes in two numbers, an operator
+ * and uses the calculator module to compute the results.
  * Usage:
  * node index2.js 1 + 2
  * node index2.js 1 - 2
@@ -88,14 +106,17 @@ Choose any of the suggested code samples and press `Accept Solution`, this will 
  */
  ```
 
-### 2.2 Ask Copilot Chat for help
-<img width="48px" src="images/copilot-chat.png">
+</p>
+</details>
 
-```
-give me an example of an index file that reads the input from the commandline and uses the calculator module.
-```
+### 2.2 Use the Copilt completions panel
 
-Copy the suggested solution into the `index.js` file.
+<img width="48px" src="images/copilot.png">
+
+![control](images/control-key.png)
+![return](images/return-key.png)
+
+Choose any of the suggested code samples and press `Accept Solution`, this will copy the code to the file.
 
 ---
 
@@ -109,55 +130,10 @@ or
 node index.js 2 + 3
 ```
 
-### 3.1 Fix any errors that come up
-
-Type any error in to Copilot-Chat and ask for a fix.
-
-<img width="48px" src="images/copilot-chat.png">
-
-```
-...
-```
-
 ---
 
-## 4. Test the solution
+## 4. Test the solution (optional)
 
-| This section is open to your imagination, try to "challange" the code
-
-...
-
----
-
-## 5. Create unit tests
-
-### 5.1 Open the `test/calculator.test.js` file
-
-### 5.2 Ask Copilot Chat for help
-
-<img width="48px" src="images/copilot-chat.png">
-
-```
-give me a sample unit test for the calculator module.
-```
-
-### 5.3 Copy the suggested code to the file
-
-### 5.4 Ask Copilot Chat for help
-
-<img width="48px" src="images/copilot-chat.png">
-
-```
-how can I invoke the unit test ?
-```
+This section is open to your imagination, try to "challenge" the code. See if you find use-cases that "break it".
 
 
-<img width="48px" src="images/copilot-chat.png">
-
-```
-how can I create jest json output ?
-```
-
-## "Extra Credit"
-
-- Use the Unit test results to create a README [Badge](https://shields.io)
