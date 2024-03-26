@@ -25,6 +25,7 @@
 
     /**
      * @description 
+     */
     public class MysteryFunction {
         public static int mystery(int n) {
     ...
@@ -37,6 +38,7 @@
         /**
          * @description <copilot suggestion>
          * @param <copilot suggestion>
+         */     
         private static int partition(int[] array, int start, int end) {
             int pivot = array[end];
     ...
