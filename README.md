@@ -6,7 +6,7 @@
 
 ## Introduction
 
-### :warning: Note: The primary objective of this demo is not to complete the calculator app; that aspect serves as a guide for walking you through the exercise steps. If you don't achieve the exact results by the end, that's perfectly fine! What matters most is that users gain insight into how to use Copilot and Copilot Chat effectively.
+### :warning: Note: The primary objective of this demo Repository is not to complete all the exercises such as the calculator app; that aspect serves as a guide for walking you through the exercise steps. If you don't achieve the exact results by the end, that's perfectly fine! What matters most is that users gain insight into how to use Copilot and Copilot Chat effectively.
 
 ## Overview
 
