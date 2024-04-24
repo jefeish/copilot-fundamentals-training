@@ -48,7 +48,7 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
 
 - **Description:**
 
-  - **Configurations**
+  - **Copilot Configurations**
     - Check the configuration options of your Copilot Plugin
 
       ![copilot-config](docs/images/copilot-first-config-steps.png)
