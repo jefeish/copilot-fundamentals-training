@@ -12,13 +12,12 @@ A small demo project to exercise the basic capabilities of Copilot in your IDE. 
 
 ## Pre-Requisits
 
-- Make sure to have...
+- Make sure to have **Copilot**, correctly installed & working in your IDE !
 
-<img width="10%" src="images/copilot.png">
+### NOTE:
+:warning: If you need help with the exercise prompts, click on the **':arrow_forward: Help'**, to get some additonal information.
 
-...correctly installed in your IDE
-
-----
+---
 ### Steps
 - create a project folder (eg.: `myCalulator/`, either in side this Repo or in a new project)
 - initialize the npm project (create package.json) 

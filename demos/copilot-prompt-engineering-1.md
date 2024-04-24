@@ -2,7 +2,7 @@
 
 ## Prompt Techniques & Neighboring Tabs
 
-(Zero-shot, One-shot, etc.)
+### GOAL: Practice Zero-shot, One-shot prompting etc.
 
 ### Step 1: Requirements
 
