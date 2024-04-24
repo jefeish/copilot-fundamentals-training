@@ -42,10 +42,6 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
 
 ## ![](docs/images/copilot32.png) Getting Started
 
->*Prompt engineering is the process of designing and creating high-quality prompts that can be used to generate accurate and useful code suggestions with Copilot.*
-
-**GitHub**
-
 ---
 
 ### :pencil2: Copilot First Steps (🕙 5 min)
@@ -85,6 +81,9 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
 <br><br>
 ## ![](docs/images/copilot32.png) Prompt Techniques
 
+>*Prompt engineering is the process of designing and creating high-quality prompts that can be used to generate accurate and useful code suggestions with Copilot.*
+
+**GitHub**
 
 ---
 
