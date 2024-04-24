@@ -6,6 +6,7 @@
 
 ### Step 1: Requirements
 
+
 - Open the `copilot-fundamentals-training` Repo
 - Go to the `/demos/Node-calculator/solutions` folder and run `npm install`
 - Go to the `/demos/Node-calculator/solutions/tests` folder and open the `calculator.test.js` file 
