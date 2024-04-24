@@ -28,7 +28,7 @@ This exercise creates an MVC App that functions as an RSS Feeds client to report
 ## Step 1 - Create a Project Folder
 
 
-## Step 2 - Inside the Project Folder Run This
+## Step 2 - Inside the Project Folder Run This (bash required)
 
 ```
 mkdir -p src/views

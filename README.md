@@ -192,3 +192,10 @@ Try non-ASCII character sets
 ---
 
 ![](docs/images/droidtocat.png)
+
+## Extra Credit (optional :smiley: )
+
+Have a look at writing a Client App to subscribe to Copilot incidents.
+
+- Repository Reference: [GitHub-Status-With-Copilot.md](/demos/GitHub-Status-With-Copilot.md)
+
