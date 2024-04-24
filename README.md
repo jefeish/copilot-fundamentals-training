@@ -36,7 +36,7 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
   
 - Each exercise contains two main sections!
    - **Description** - What is the exercise about and how to do it
-   - **Repository Link:** - If possible we provided a reference to additional instructions or prepaed setups, to help you with the task. **Note:** not all exercises require/provide a link 
+   - **Repository Link:** - If possible we provided a reference to additional instructions or prepared setups, to help you with the task. **Note:** not all exercises require/provide a link 
 <br><br>
 ---
 
