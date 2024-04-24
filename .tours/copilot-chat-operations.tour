@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Copilot Chat",
+  "description": "A tour to create a calculator app with defined features and edge cases",
+  "steps": [
+    {
+      "file": "src/App.js",
+      "title": "'Talk' to Copilot",
+      "description": "## Demonstrate some Copilot Chat interaction\n\n### 1. Open [Copilot Chat](command:workbench.panel.chatSidebar.copilot) (`Control` + `Command` + `I`)\n\n- Type: ***'give me a NodeJS web server'***\n  - Explore the options to handle the code suggestions (`Copy`, `Insert at Cursor`, `Insert into new file`)...\n\n- Type: ***'What's the weather in New York City ?'***\n  - Copilot will let you know it's purpose...\n\n- Type: ***'What's the latest version of Python ?'***\n  - Copilot's knowledge has it's limits...\n  - Check for yourself - [Python releases](https://www.python.org/downloads/)\n  \n- Type: ***'/'***\n  - Copilot can help you with some topics...\n\n\n",
+      "line": 7,
+      "content": "..."
+    }
+  ]
+}

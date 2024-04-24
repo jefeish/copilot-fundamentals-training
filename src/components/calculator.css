@@ -1,0 +1,80 @@
+.calculator {
+    background-color:rgb(113, 130, 130);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px;
+}
+
+.key {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(216, 216, 216);
+}
+
+.key:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.operator:hover {
+    background-color: rgb(215, 249, 212);
+}
+
+.button-span-3:hover {
+    background-color: rgb(255, 212, 212);
+}
+
+.operator {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.button-span-3 {
+    width: 110px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+  }
+
+.display {
+    margin: 5px;
+    width: 290px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: right;
+    line-height: 50px;
+    padding-right: 10px;
+}

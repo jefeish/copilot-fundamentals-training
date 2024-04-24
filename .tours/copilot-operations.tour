@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Copilot",
+  "description": "A tour to create a calculator app with defined features and edge cases",
+  "steps": [
+    {
+      "file": "src/App.js",
+      "title": "Inline help",
+      "description": "## Situation: The React App does not use the `calculator` component! \n\n- Remember to start the App\n\n> npm install\n\n> npm start\n \n- [Open Browser](command:vs-browser.start) (use port 3000)\n\n### 1. Test Copilots Inline Suggestion\n\n- After the App is started, you probably do not see the `calculator` compoment, let's try to add it.\n- Based on the file context, file references to `calculator`, Copilot might already suggest the right thing.\n- Click `Tab` to accept the suggestion.\n\n### 2. Go to the end of the comment line and press 'Enter'\n\n- Give Copilot a bit time to present you with a suggestion\n\n- **Optional:** If Copilot does not produce satisfying results, try using [Copilot Chat](command:workbench.panel.chatSidebar.copilot) \n\n### 4. Accept a Suggestion and Save the File\n\n- With the correct suggestion `(<Calculator />)` you should now see the calculator in the App.\n",
+      "line": 16,
+      "content": "...",
+      "selection": {
+        "start": {
+          "line": 19,
+          "character": 1
+        },
+        "end": {
+          "line": 20,
+          "character": 135
+        }
+      }
+    },
+    {
+      "file": "src/components/Calculator.js",
+      "title": "Completions Panel",
+      "description": "## Situation: The calculator does not calculate.\n\n### 1. Test the use of the *Copilot Completions Panel*\n\n### 2. Go to the end of the comment line and press 'Enter', to trigger Copilot\n\n### 3. Open the [Copilot Completions Panel](command:github.copilot.generate) (**`Control^`** + **`Enter`**). \n#### Note: Try not to use the 'Inline suggestions' (as they are still showing up)\n\n- Give Copilot a bit time to present you with suggestions\n- Choose one of the suggestions by clicking the `'Accept Solution'` link\n- **Optional:** If Copilot does not produce satisfying results, try using [Copilot Chat](command:workbench.panel.chatSidebar.copilot) \n\n### 4. Save the file and continue\n\n- Test the calculator in the browser (http://localhost:3000)\n",
+      "line": 56,
+      "content": "...",
+      "selection": {
+        "start": {
+          "line": 11,
+          "character": 1
+        },
+        "end": {
+          "line": 12,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "src/components/GitHubHeader.js",
+      "title": "Fix using Copilot - 1",
+      "description": "## Try to add an 'About' link to the header\n\n### 1. Insert this code...\n\n```javascript\n        <a href=\"#\" className=\"Header-link\">\n          About\n        <a>\n        &nbsp; &nbsp; &nbsp;\n```\n>Note: this code is broken, we will use Copilot to fix it\n\n- You should see the IDE giving you an Error.\n\n### 2. Click Next ",
+      "line": 27,
+      "content": "..."
+    },
+    {
+      "file": "src/components/GitHubHeader.js",
+      "title": "Fix using Copilot - 2",
+      "description": "## Use Copilot to fix the Error\n\n### 1. We highlight the section of the code that we want Copilot to focus on...\n\n- line 24-26 (the previously inserted code)\n\n### 2. You should see a lightbulb, click that and select the`Fix using Copilot` option. Copilot should suggest a code fix for you!\n\n- **Optional:** If Copilot does not produce satisfying results, try using [Copilot Chat](command:workbench.panel.chatSidebar.copilot) and use the command `/fix` (using the highlighted code). The fix that Copilt chat suggests can be added by clicking \"Insert at Cursor\", which will replace the existing (bad) code.\n\n### 3. Save the file and continue...\n",
+      "line": 27,
+      "content": "...",
+      "selection": {
+        "start": {
+          "line": 24,
+          "character": 1
+        },
+        "end": {
+          "line": 26,
+          "character": 128
+        }
+      }
+    },
+    {
+      "file": "src/components/Calculator.js",
+      "title": "Explain using Copilot",
+      "description": "## Try using Copilot to `Explain the Code`\n\n### 1. we already highlighted a code section as an example (24-31)\n\n- you should see a little lightbulb, click that and select `Explain using Copilot`.\n- **Optional:** If Copilot does not produce satisfying results, try using [Copilot Chat](command:workbench.panel.chatSidebar.copilot) and use the command `/explain` (using the highlighted code). Copilot Chat will give a detailed description of the highlighted code.\n\n### This concludes the GitHub Copilot operations demo !",
+      "line": 33,
+      "selection": {
+        "start": {
+          "line": 24,
+          "character": 1
+        },
+        "end": {
+          "line": 31,
+          "character": 80
+        }
+      }
+    }
+  ]
+}
