@@ -1,5 +1,11 @@
-# Tips & Techniques
-
+<div class="container-30-70">
+    <div class="column-left">
+        <img style="max-width: 100%; max-height: 90%;" src="images/meeting.png">
+    </div>
+    <div class="column-right">
+        <h1>Tips & Techniques</h1>
+    </div>
+</div>
 <div class="container">
   <div class="column3">
     <p class="title1">Innovative Strategies</p>
