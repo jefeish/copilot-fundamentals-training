@@ -36,15 +36,11 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
   
 - Each exercise contains two main sections!
    - **Description** - What is the exercise about and how to do it
-   - **Repository Link:** - If possible we provided a reference to additional instructions or prepaed setups, to help you with the task. **Note:** not all exercises require/provide a link 
+   - **Repository Link:** - If possible we provided a reference to additional instructions or prepared setups, to help you with the task. **Note:** not all exercises require/provide a link 
 <br><br>
 ---
 
 ## ![](docs/images/copilot32.png) Getting Started
-
->*Prompt engineering is the process of designing and creating high-quality prompts that can be used to generate accurate and useful code suggestions with Copilot.*
-
-**GitHub**
 
 ---
 
@@ -52,7 +48,7 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
 
 - **Description:**
 
-  - **Configurations**
+  - **Copilot Configurations**
     - Check the configuration options of your Copilot Plugin
 
       ![copilot-config](docs/images/copilot-first-config-steps.png)
@@ -85,6 +81,9 @@ For effective interaction with Copilot, it's essential to keep in mind that **Co
 <br><br>
 ## ![](docs/images/copilot32.png) Prompt Techniques
 
+>*Prompt engineering is the process of designing and creating high-quality prompts that can be used to generate accurate and useful code suggestions with Copilot.*
+
+**GitHub**
 
 ---
 
