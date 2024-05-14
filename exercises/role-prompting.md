@@ -1,3 +1,0 @@
-## Copilot Chat - Role Prompting
-
-- 
