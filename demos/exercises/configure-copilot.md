@@ -1,6 +1,6 @@
 ![cover](images/copilot-chat-cover-wide.png)
 
-(🕙 5 min)
+(🕙 10 min)
 
 ## Copilot Chat - Configure your IDE
 
