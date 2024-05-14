@@ -27,7 +27,7 @@
   ![explain](images/vscode-explain-this.png)
 
 - After creating that shortcut, open any file in the IDE, highlight a line of code and use the shortcut to have Copilot explain it to you.
-  - For Example: Open the [`MysteryFunction.java`](../demos/document-code/MysteryFunction.java) file and use the `/explain` command in **Copilot Chat**
+  - For Example: Open the [`MysteryFunction.java`](../demos/sample-code/MysteryFunction.java) file and use the `/explain` command in **Copilot Chat**
 
 - Repeat that step for any other **Copilot Chat** command you like
 
