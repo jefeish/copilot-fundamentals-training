@@ -36,7 +36,8 @@
   ```
 
   - Sample
-  ![sample](images/copilot-chat-workspace-new.png)
+    
+    ![sample](images/copilot-chat-workspace-new.png)
 
   - Review the suggestion and if you agree, `Click` **Create Workspace**
 
