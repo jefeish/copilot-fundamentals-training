@@ -6,9 +6,9 @@
 
 Use **Copilot Chat** to generate Unit-Tests for your code
 
-### :pencil2: Exercise 1: Generate Unit-Tests for the [`calculator.js`](../demos/Node-calculator/solution/calculator.js) function
+### :pencil2: Exercise 1: Generate Unit-Tests for the [`calculator.js`](../Node-calculator/solution/calculator.js) function
 
-- Open the  [`calculator.js`](../demos/Node-calculator/solution/calculator.js) in your IDE
+- Open the  [`calculator.js`](../Node-calculator/solution/calculator.js) in your IDE
 
 - With the `calculator.js` file open in a Tab, go to **Copilot Chat**, request Copilot to create Unit-Tests.
 

@@ -8,7 +8,7 @@
 
 ### :pencil2: Exercise 1: Use `Copilot Chat` to refactor your code, for many languages
 
-- Open the  [`FactorialCalculator.java`](../demos/sample-code/FactorialCalculator.java) file and ask **Copilot Chat** to 'improve' the code
+- Open the  [`FactorialCalculator.java`](../sample-code/FactorialCalculator.java) file and ask **Copilot Chat** to 'improve' the code
 
     ```
     can you improve the structure and readability of the method that calculates the factorial

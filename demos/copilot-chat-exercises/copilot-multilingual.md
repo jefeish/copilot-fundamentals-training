@@ -41,7 +41,7 @@ Copilot Chat can understand numerous natural languages alongside programming lan
 ### :pencil2: Exercise 2: Use Copilot Chat to translate your code to another programming language
 
 - Example - Java to Python
-  - Open the [`Validator.java`](../demos/sample-code/Validator.java) class in your IDE  (Tab) and ask in **Copilot Chat**,
+  - Open the [`Validator.java`](../sample-code/Validator.java) class in your IDE  (Tab) and ask in **Copilot Chat**,
 
     ```
     translate this class to Python
