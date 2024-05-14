@@ -24,6 +24,7 @@
 
 
 - Assign a shortcut to a command. For example: `/explain`
+  
   ![explain](images/vscode-explain-this.png)
 
 - After creating that shortcut, open any file in the IDE, highlight a line of code and use the shortcut to have Copilot explain it to you.
