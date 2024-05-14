@@ -1,6 +1,6 @@
 ![cover](images/copilot-chat-cover-wide.png)
 
- (:clock10: 5 min)
+( :clock10: 5 min )
 
 ## Copilot Chat is Multilingual
 
