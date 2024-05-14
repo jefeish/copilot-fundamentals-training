@@ -1,6 +1,6 @@
 ![cover](images/copilot-chat-cover-wide.png)
 
- (:clock10: 10 min)
+( :clock10: 10 min )
 
 ## Copilot Chat - Working at a Project Level
 
