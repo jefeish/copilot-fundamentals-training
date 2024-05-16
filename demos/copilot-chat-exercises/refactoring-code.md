@@ -15,11 +15,18 @@
     ```
 
   - Sample
+
+    (⚠️ Note: that Copilot Chat even refers to the request as **`refactor`**)
+    
     ![sample](images/refactor.png)
 
+- Compare the "before & after" code
+
+- If you have lager code samples try this again
+  
   ![cover](images/copilot-chat-cover-wide-3.png)
 
-- **Note:** Copy the generated code into your IDE
+    - **Note:** You can import the refactored code into the original code base
 
      <img width="300px" src="images/vscode-insert-code.png">
 
