@@ -12,7 +12,7 @@ Use **Copilot Chat** to generate Unit-Tests for your code
 
 - With the `calculator.js` file open in a Tab, go to **Copilot Chat** and request Copilot to create Unit-Tests.
 
-  - Sample (Zero-Shot Prompt approach)
+  - Sample **(Zero-Shot Prompt approach)**
 
      ![unit-test](images/unit-tests.png)
 
@@ -20,12 +20,12 @@ Use **Copilot Chat** to generate Unit-Tests for your code
 
 - Try this exercise again with a more specific request.
 
-    - Example (Few-Shot Prompt approach)
+    - Example **(Few-Shot Prompt approach)**
         ```
         create unit tests for this function, incuding all edge cases using the Mocha framework
         ```
 
-- **Note:** Remember to use **`Prompt crafting`** to provide additional details/context, what kind of `Unit-Tests` you would like Copilot to create.
+- **Note:** Remember to use **`Prompt crafting`** to provide additional details/context, what kind of `Unit-Tests` you would like Copilot to create etc.
 
 ![cover](images/copilot-chat-cover-wide-3.png)
 
