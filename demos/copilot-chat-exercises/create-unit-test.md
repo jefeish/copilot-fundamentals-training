@@ -37,7 +37,7 @@ Use **Copilot Chat** to generate Unit-Tests for your code
 
 ![cover](images/copilot-chat-cover-wide-3.png)
 
-- Import the results into a new file and run the tests. If you need to know how to run the tests, check with Copilot Chat.
+- Import the results into a new file and run the tests. If you need to know how to run the tests, ask Copilot Chat.
 
      ![copy](images/vscode-insert-code.png)
 
