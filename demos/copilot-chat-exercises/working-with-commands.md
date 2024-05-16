@@ -27,9 +27,12 @@
 
 ### Exercise 2: Running some of the commands and see how Copilot Chat repsonds
 
+#### For Example:
 
-
-- For Example: Use the `#file` command (VS-Code)
+- Use the `#file` command (VS-Code)
   - Copilot Chat reflects on the code/file content in your currently open Tab, you can add additional content by adding a file to your current Copilot Chat session and have it being included in the Prompt context.
+
+- Use the `/simplify` command (IntelliJ IDEA)
+  - Note: The same functionality is available in VS-Code but not as a command, ask Copilot Chat.  
 
 ![cover](images/copilot-chat-cover-wide-2.png)
