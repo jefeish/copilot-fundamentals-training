@@ -12,7 +12,7 @@ Use **Copilot Chat** to generate Unit-Tests for your code
 
 - With the `calculator.js` file open in a Tab, go to **Copilot Chat** and request Copilot to create Unit-Tests.
 
-  - Sample
+  - Sample (Zero-Prompt approach)
 
      ![unit-test](images/unit-tests.png)
 
