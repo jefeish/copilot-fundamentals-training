@@ -22,7 +22,11 @@
 
 - Compare the "before & after" code
 
-- If you have lager code samples try this again
+#### Some additional steps
+
+1. Try this with larger code samples
+  
+2. Explore the option to highlight (select) a segement from the code and only refactor that
   
   ![cover](images/copilot-chat-cover-wide-3.png)
 
