@@ -6,7 +6,7 @@
 
 ### :pencil2: Exercise 1: Ask **Copilot Chat** to explain the code
 
-- Open [`MysteryFunction.java`](../sample-code/MysteryFunction.java) (Tab). 
+- Open the [`MysteryFunction.java`](../sample-code/MysteryFunction.java) file (Tab). 
 
   Request an explanation in **Copilot Chat**
 
@@ -22,7 +22,7 @@
 
 ### :pencil2: Exercise 2: Ask **Copilot Chat** to document the code
 
-- Open [`MysteryFunction.java`](../sample-code/MysteryFunction.java) (Tab). 
+- Open the [`MysteryFunction.java`](../sample-code/MysteryFunction.java) file (Tab). 
 
   Ask **Copilot Chat** to document the code
 
@@ -36,8 +36,10 @@
 
 ![cover](images/copilot-chat-cover-wide-3.png)
 
-- **Note:** Copy the generated code into your IDE
+- **Note:** Explore being more specific about the expected documentation, the items and its format, even **provide examples** to Copilot Chat
 
+  - Rember that you can import the results back into your file
+    
     ![copy](images/vscode-insert-code.png)
 
 ![cover](images/copilot-chat-cover-wide-2.png)
