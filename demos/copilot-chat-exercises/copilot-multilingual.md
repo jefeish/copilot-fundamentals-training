@@ -14,7 +14,7 @@ Copilot Chat can understand numerous natural languages alongside programming lan
     For this exercise we don't require any pre-set files from the Repo.
 
   - Choose any language and instruct Copilot Chat to create code. For example, 
-    - Choose any coding-language you prefer
+    - Tell Copilot Chat in...
 
     - **Spanish:**
 
