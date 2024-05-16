@@ -33,7 +33,7 @@
       /help
       ``` 
     
-  ![cover](images/copilot-chat-cover-wide-3.png)
+    ![cover](images/copilot-chat-cover-wide-3.png)
 
 - Try the following command in **Copilot Chat**
   ```
