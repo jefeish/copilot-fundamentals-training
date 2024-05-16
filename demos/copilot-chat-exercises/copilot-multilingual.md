@@ -51,9 +51,12 @@ Copilot Chat can understand numerous natural languages alongside programming lan
 
       ![](images/vscode-multilingual-2.png)
 
+   - Try the exercise again with different 'target' languages (eg.: Go, Lisp, etc.)
+       - Explore how Copilot Chat covers multiple languages.
+         
   ![cover](images/copilot-chat-cover-wide-3.png)
 
-   - **Note:** Copy the generated code into your IDE
+   - **Note:** You can copy the generated code into your IDE
 
      <img width="300px" src="images/vscode-insert-code.png">
 
