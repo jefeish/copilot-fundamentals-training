@@ -34,7 +34,7 @@ Copilot Chat can understand numerous natural languages alongside programming lan
 
     > **Note:**
     >  - Without specifying a programming language and with no open code file as a reference, Copilot Chat will pick a language.
-    >  - Copilot Chat might continue to use the language in the request in its generated code
+    >  - Copilot Chat might continue to use the language used in the request for its generated code
 
 ![cover](images/copilot-chat-cover-wide-2.png)
 
