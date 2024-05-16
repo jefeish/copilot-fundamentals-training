@@ -23,8 +23,13 @@
 
   - **Note:** At the time of writing, there is no features parity for the IDE's.
 
-  ![cover](images/copilot-chat-cover-wide-3.png)
- 
-- Have a look at the available **Copilot Chat** `command` options
+![cover](images/copilot-chat-cover-wide-2.png)
+
+### Exercise 2: Running some of the commands and see how Copilot Chat repsonds
+
+
+
+- For Example: Use the `#file` command (VS-Code)
+  - Copilot Chat reflects on the code/file content in your currently open Tab, you can add additional content by adding a file to your current Copilot Chat session and have it being included in the Prompt context.
 
 ![cover](images/copilot-chat-cover-wide-2.png)
