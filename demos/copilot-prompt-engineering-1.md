@@ -9,12 +9,12 @@
 
 - Open the `copilot-fundamentals-training` Repo
 - Go to the `/demos/Node-calculator/solutions` folder and run `npm install`
-- Go to the `/demos/Node-calculator/solutions/tests` folder and open the `calculator.test.js` file 
+- Go to the `/demos/Node-calculator/solution/tests` folder and open the [`calculator.test.js`](/demos/Node-calculator/solution/tests/calculator.test.js) file 
 > NOTE: make sure that THIS IS THE ONLY TAB OPEN in your IDE
 
 ### Step 2
 
-- Add a comment to the `calculator.test.js` file
+- Add a comment to the [`calculator.test.js`](/demos/Node-calculator/solution/tests/calculator.test.js) file
 
   Example
   ```
@@ -29,8 +29,8 @@
 
 ### Step 3
 
-- Delete the content from the `calculator.test.js` file
-- Add a new comment to the `calculator.test.js` file
+- Delete the content from the [`calculator.test.js`](/demos/Node-calculator/solution/tests/calculator.test.js) file
+- Add a new comment to the [`calculator.test.js`](/demos/Node-calculator/solution/tests/calculator.test.js) file
 
   Example
 
@@ -48,6 +48,6 @@
 
 ### Step 4
 
-- Repeat the above steps but have the `calculator.js` file open in a Tab!
+- Repeat the above steps but have the [`calculator.test.js`](/demos/Node-calculator/solution/tests/calculator.test.js) file open in a Tab!
 
-> NOTE: you might want to clear the previus content from the `claculator.test.js` file
+> NOTE: you might want to clear the previus content from the [`calculator.test.js`](/demos/Node-calculator/solution/tests/calculator.test.js) file

@@ -1,9 +1,19 @@
-![copilot-cover](docs/images/copilot-cover-wide.png)
+![copilot-cover](/docs/images/copilot-cover-wide.png)
 # Copilot Fundamentals - Training Exercises
 
-![](docs/images/line.png)
 
-## ![](docs/images/copilot32.png) Getting Started
+- [:pencil2: Copilot First Steps (🕙 5 min)](#exercise1) 
+- [:pencil2: Prompt Techniques & Neighboring Tabs  (🕙 5 min)](#exercise2)
+- [:pencil2: Think step by step (:clock10: 10 min)](#exercise3)
+- [:pencil2: Copilot Mulitlingual Features (:clock10: 5 min)](#exercise4)
+- [:pencil2: Offering Alternatives (:clock10: 5 min)](#exercise5)
+- [:pencil2: Use Copilot to Understand / Explain Code (:clock10: 5 min)](#exercise6)
+
+
+![line](/docs/images/line1.png)
+
+
+## ![](/docs/images/copilot32.png) Getting Started
 
 >*Prompt engineering is the process of designing and creating high-quality prompts that can be used to generate accurate and useful code suggestions with Copilot.*
 
@@ -11,6 +21,7 @@
 
 ---
 
+# <exercise1>
 ### :pencil2: Copilot First Steps (🕙 5 min)
 
 - **Description:**
@@ -18,7 +29,7 @@
 - **Configurations**
   - Check the configuration options of your Copilot Plugin
 
-    ![copilot-config](docs/images/copilot-first-config-steps.png)
+    ![copilot-config](/docs/images/copilot-first-config-steps.png)
 
   - Check the Copilot keyboard shortcuts in your IDE. A link to them should be listed in the config options.
     - Specifically have a look at the Keyboard shortcut for the `Copilot Suggestions Tab`
@@ -41,15 +52,17 @@
 
 - **Repository Link:** Inside the `/copilot-fundamentals-training` Repo open, [/demos/copilot-operations/phoneNumberValidator.py](/demos/copilot-operations/phoneNumberValidator.py)
 
-![](docs/images/line.png)
+![](/docs/images/line.png)
 
 ---
 
 <br><br>
-## ![](docs/images/copilot32.png) Prompt Techniques
+## ![](/docs/images/copilot32.png) Prompt Techniques
 
 
 ---
+
+# <exercise2>
 
 ### :pencil2: Prompt Techniques & Neighboring Tabs  (🕙 5 min)
 
@@ -58,6 +71,8 @@
 - **Repository Link:** Inside the `/copilot-fundamentals-training` Repo open, [/demos/copilot-prompt-engineering-1.md](/demos/copilot-prompt-engineering-1.md)
 
 ---
+
+# <exercise3>
 
 ### :pencil2: Think step by step (:clock10: 10 min)
 
@@ -74,11 +89,13 @@
 
 ---
 
-![](docs/images/line.png)
+![](/demos/docs/images/line.png)
 
 
-## ![](docs/images/copilot32.png) Tips & Techniques
+## ![](/docs/images/copilot32.png) Tips & Techniques
 ---
+
+# <exercise4>
 
 ### :pencil2: Copilot Mulitlingual Features (:clock10: 5 min)
 
@@ -113,6 +130,8 @@ Try non-ASCII character sets
 
 ---
 
+# <exercise5>
+
 ### :pencil2: Offering Alternatives (:clock10: 5 min)
 
 #### If at first you don’t succeed, try again
@@ -138,6 +157,8 @@ Try non-ASCII character sets
 
 ---
 
+# <exercise6>
+
 ### :pencil2: Use Copilot to Understand / Explain Code (:clock10: 5 min)
 
 - **Description**
@@ -154,4 +175,10 @@ Try non-ASCII character sets
 
 ---
 
-![](docs/images/droidtocat.png)
+![](/docs/images/droidtocat.png)
+
+## "Extra Credit" (optional :smiley: )
+
+Have a look at writing a Client App to subscribe to Copilot incidents.
+
+- Repository Reference: [GitHub-Status-With-Copilot.md](/demos/GitHub-Status-With-Copilot.md)

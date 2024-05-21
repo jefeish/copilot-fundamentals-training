@@ -49,4 +49,4 @@
 </div>
 
 <!-- Add some speaker notes -->
-Note: testing notes
+Note:
