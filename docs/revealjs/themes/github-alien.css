@@ -68,412 +68,6 @@ section.has-light-background h6 {
   --r-overlay-element-fg-color: 0, 0, 0;
 }
 
-/*********************************************
-  * GitHub Theme stuff (@jefeish)
-  *********************************************/
-
-.title {
-  color: var(--r-heading-color);
-  font-size: var(--r-list-title-size);
-  margin: 0;
-  margin-top: 10;
-  padding: 0;
-  /* border: dashed 1px blue; */
-}
- 
-.title1 {
-  color: rgb(150, 252, 150);
-  font-size: var(--r-list-title-size);
-  margin: 0;
-  margin-top: 10;
-  padding: 0;
-}
-
-.subtitle  {
-  display: block;
-  color: var(--r-main-color);
-  font-weight: lighter;
-  font-size: var(--r-list-subtitle-size);
-  padding: 0;
-  margin: 0;  
-  /* border: dashed 1px red; */
- }
-
- constainer-list > p.title {
-  display: block;
-  margin: 0;
-  padding: 0; 
-  margin-top: 10px;
-  /* border: dashed 1px red; */
-}
-
-p.title {
-  display: block;
-  margin: 0;
-  padding: 0; 
-  margin-top: 0px;
-  /* border: dashed 1px greenyellow */
-}
-
- p.subtitle {
-  display: block;
-  margin: 0;
-  padding: 0; 
-  /* border: dashed 1px yellow */
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  /* text-align options: left, center, right, justify */
-  text-align: left;
-  font-size: var(--r-list-title-size);
-  padding: 0px;
-  margin: 0 0 0 0px;
-  /* height: 100vh; 
-  width: 100vw; */
-  /* border: dashed 1px gray; */
-}
-
-.container-chapter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-  /* text-align options: left, center, right, justify */
-  text-align: center;
-  font-size: var(--r-chapter-font-size);
-  padding: 5px;
-  /* height: 100vh; 
-  width: 100vw; */
-  background: linear-gradient(to right, var(--color-start) 50%, var(--color-end) 50%);
-}
-
-.container-image-title {
-  display: flex; /* Use flexbox */
-  align-items: center; /* Align items vertically in the center */
-  margin-left: 30px; /* Add spacing to the left */;
-  color: white;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.container-image-title img {
-  width: 60px; /* Adjust the width of the image as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add spacing between image and text */
-}
-
-.column1 {
-  flex: 1;
-  padding: 25px;
-  margin: 0 30px;
-  text-align: left;
-  font-size: large;
-}
-
-.column2 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  margin: 0 10px;
-  /* border: dashed 1px red; */
-}
-
-.column2 p.subtitle {
-  flex: 1;
-  padding-bottom: 5px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  /* border: dashed 1px grey; */
-}
-
-.column3 {
-  flex: 1;
-  padding: 5px;
-  margin: 0 10px;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-}
-
-.column4 {
-  flex: 1;
-  padding: 5px;
-  margin: 0 10 20px;
-  margin-bottom: 20px;
-}
-
-.column4 p.subtitle {
-  border-top: 2px solid var(--color-line);
-  padding-top: 5px;
-  /* color: rgb(165, 165, 165); */
-}
-
-.mid-container {
-  border-top: 2px solid var(--color-line);
-  border-bottom: 2px solid var(--color-line);
-  display: flex;
-  justify-content: space-between;
-  /* text-align options: left, center, right, justify */
-  text-align: justify;
-  font-size: 18px;
-  padding: 5px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  /* height: 100vh; */
-}
-
-.text-column {
-  flex: 1;
-  padding: 5px;
-  margin-right: 50px;
-}
-
-.image-column {
-  flex: 1;
-  padding: 5px;
-}
-
-.image-column-list {
-  padding: 5px;
-}
-
-.code-column {
-  flex: 1;
-  padding: 5px;
-  margin-right: 50px;
-  font-size: x-large
-}
-
-.image-column {
-  /* border: 1px dashed green; */
-  /* debug statement */
-  width: 400px;
-  /* Set the width of the container */
-  height: 500px;
-  /* Set the height of the container */
-  display: flex;
-  /* Use flexbox for centering */
-  justify-content: center;
-  /* Center horizontally */
-  align-items: center;
-  /* Center vertically */
-  overflow: hidden;
-  /* Hide any overflow */
-}
-
-.image-column img {
-  max-width: 100%;
-  /* Ensure the image doesn't exceed the container's width */
-  max-height: 100%;
-  /* Ensure the image doesn't exceed the container's height */
-  display: block;
-  /* Remove any extra spacing */
-  margin: auto;
-  /* Center the image */
-}
-
-.image-column-small img {
-  max-width: 50%;
-  /* Ensure the image doesn't exceed the container's width */
-  max-height: 50%;
-  /* Ensure the image doesn't exceed the container's height */
-  display: block;
-  /* Remove any extra spacing */
-  margin: auto;
-  /* Center the image */
-}
-
-.chapter {
-  display: flex;
-  font-size: var(--r-chapter-font-size);
-  color: var(--r-heading-color);
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-}
-
-.chapter img {
-  width: 150px;
-}
-
-.chapter svg {
-  width: 150px;
-  height: 150px;
-  stroke: var(--color-line);
-}
-
-.container-list {
-  display: flex;
-  text-align: left;
-  align-items: center;
-  font-size: var(--r--font-size);
-  margin-left: 10px;
-  padding: 0px;
-  align-items: flex-start;
-}
-
-.container-list img {
-  justify-content: left;
-  align-items: center;
-  margin-left: 10px;
-  padding-left: 10px;
-  padding-top: 5px;
-  width: 20px;
-  height: 20px;
-  margin-right: 50px;
-}
-
-.container-30-70{
-  display: flex;
-  justify-content: space-between;
-  /* text-align options: left, center, right, justify */
-  text-align: left;
-  align-items: center;
-  margin: 0 0 0 0px;
-  /* height: 100vh; 
-  width: 100vw; */
-}
-
-.column-left {
-  flex: 0 0 30%; /* 30% width */
-  padding: 0 10px; /* Adjust padding as needed */
-  padding-right: 50px;
-}
-
-.column-left > p.title {
-  font-size: xx-large;
-  margin-bottom: 10px;
-}
-
-.column-right {
-  flex: 0 0 calc(70% - 50px); /* 70% width minus 50px margin */
-  padding: 0 10px; /* Adjust padding as needed */
-  margin-left: 50px;
-}
-
-.bullet-point {
-  background-image: var(--bullet-icon); /* Use the CSS variable */
-  background-size: cover;
-  background-position: center;
-  width: 20px; 
-  height: 20px;
-  min-width: 20px; /* Add this line */
-  min-height: 20px; /* Add this line */
-  margin-right: 20px; /* Adjust margin as needed */
-  align-items: top  ;
-}
-
-.container-list > .bullet-point {
-  margin-top: 15px;
-}
-  
-.list-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  /* border: dashed 1px red; */
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th {
-  padding: 8px;
-  text-align: left;
-  font-size: xx-large;
-  color: white;
-}
-
-td { 
-  padding: 8px;
-  text-align: left;
-}
-
-/* Alternate table row colors */
-/* tr:nth-child(even) {
-  background-color: #f2f2f2;
-} */
-
-.rounded-box-image {
-  border: 1px solid var(--r-box-color2);
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-image: var(--box-image);
-  background-size: cover; 
-}
-
-.rounded-box-image h1, h2, h3, h4 {
-  color: var(--r-heading-color);
-  padding-top: 5px;
-}
-
-
-.rounded-box-gradient {
-  border: 1px solid var(--r-box-color2);
-  color: var(--r-heading-color);
-  text-align: center;
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px;
-  opacity: 1.0; 
-  background: linear-gradient(to top right, var(--box-color-start) 0%, var(--box-color-end) 100%);
-}
-
-.rounded-box {
-  border: 1px solid var(--r-box-color1);
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 10px;
-}
-
-.rounded-box p {
-  padding: 0px;
-  padding-left: 20px;
-  margin: 0px;
-}
-
-.container-list.rounded-box {
-  display: flex;
-  text-align: left;
-  align-items: center;
-  font-size: 20px;
-  margin-left: 0px;
-  padding: 0px;
-}
-
-.rounded-box h2, .rounded-box h3, .rounded-box h4 {
-  padding: 0px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-/*********************************************
-  * END - GitHub Theme stuff (@jefeish)
-  *********************************************/
-
 .reveal-viewport {
   background: #191919;
   background-color: var(--r-background-color);
@@ -799,3 +393,414 @@ td {
     background-color: var(--r-background-color);
   }
 }
+
+/*********************************************
+  * GitHub Theme stuff (@jefeish)
+  *********************************************/
+
+  .title {
+    color: var(--r-heading-color);
+    font-size: var(--r-list-title-size);
+    margin: 0;
+    margin-top: 10;
+    padding: 0;
+    /* border: dashed 1px blue; */
+  }
+   
+  .title1 {
+    color: rgb(150, 252, 150);
+    font-size: var(--r-list-title-size);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subtitle  {
+    display: block;
+    color: var(--r-main-color);
+    font-weight: lighter;
+    font-size: var(--r-list-subtitle-size);
+    padding: 0;
+    margin: 0;  
+    /* border: dashed 1px red; */
+   }
+  
+   constainer-list > p.title {
+    display: block;
+    margin: 0;
+    padding: 0; 
+    margin-top: 10px;
+    /* border: dashed 1px red; */
+  }
+  
+  p.title {
+    display: block;
+    margin: 0;
+    padding: 0; 
+    margin-top: 0px;
+    /* border: dashed 1px greenyellow */
+  }
+  
+   p.subtitle {
+    display: block;
+    margin: 0;
+    padding: 0; 
+    /* border: dashed 1px yellow */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    /* text-align options: left, center, right, justify */
+    text-align: left;
+    font-size: var(--r-list-title-size);
+    padding: 0px;
+    margin: 0 0 0 0px;
+    /* height: 100vh; 
+    width: 100vw; */
+    /* border: dashed 1px gray; */
+  }
+  
+  .container-chapter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* text-align options: left, center, right, justify */
+    text-align: center;
+    font-size: var(--r-chapter-font-size);
+    padding: 5px;
+    /* height: 100vh; 
+    width: 100vw; */
+    background: linear-gradient(to right, var(--color-start) 50%, var(--color-end) 50%);
+  }
+  
+  .container-image-title {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically in the center */
+    margin-left: 30px; /* Add spacing to the left */;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .container-image-title img {
+    width: 60px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between image and text */
+  }
+  
+  .column1 {
+    flex: 1;
+    padding: 25px;
+    margin: 0 30px;
+    text-align: left;
+    font-size: large;
+  }
+  
+  .column2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 10px;
+    /* border: dashed 1px red; */
+  }
+  
+  .column2 p.subtitle {
+    flex: 1;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* border: dashed 1px grey; */
+  }
+  
+  .column3 {
+    flex: 1;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  .column4 {
+    flex: 1;
+    padding: 5px;
+    margin: 0 10 20px;
+    margin-bottom: 20px;
+  }
+  
+  .column4 p.subtitle {
+    border-top: 2px solid var(--color-line);
+    padding-top: 5px;
+    /* color: rgb(165, 165, 165); */
+  }
+  
+  .mid-container {
+    border-top: 2px solid var(--color-line);
+    border-bottom: 2px solid var(--color-line);
+    display: flex;
+    justify-content: space-between;
+    /* text-align options: left, center, right, justify */
+    text-align: justify;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* height: 100vh; */
+  }
+  
+  .text-column {
+    flex: 1;
+    padding: 5px;
+    margin-right: 50px;
+  }
+  
+  .image-column {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .image-column-list {
+    padding: 5px;
+  }
+  
+  .code-column {
+    flex: 1;
+    padding: 5px;
+    margin-right: 50px;
+    font-size: x-large
+  }
+  
+  .image-column {
+    /* border: 1px dashed green; */
+    /* debug statement */
+    width: 400px;
+    /* Set the width of the container */
+    height: 500px;
+    /* Set the height of the container */
+    display: flex;
+    /* Use flexbox for centering */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    overflow: hidden;
+    /* Hide any overflow */
+  }
+  
+  .image-column img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%;
+    /* Ensure the image doesn't exceed the container's height */
+    display: block;
+    /* Remove any extra spacing */
+    margin: auto;
+    /* Center the image */
+  }
+  
+  .image-column-small img {
+    max-width: 50%;
+    /* Ensure the image doesn't exceed the container's width */
+    max-height: 50%;
+    /* Ensure the image doesn't exceed the container's height */
+    display: block;
+    /* Remove any extra spacing */
+    margin: auto;
+    /* Center the image */
+  }
+  
+  .chapter {
+    display: flex;
+    font-size: var(--r-chapter-font-size);
+    color: var(--r-heading-color);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  
+  .chapter img {
+    width: 150px;
+  }
+  
+  .chapter svg {
+    width: 150px;
+    height: 150px;
+    stroke: var(--color-line);
+  }
+  
+  .container-list {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: var(--r--font-size);
+    margin-left: 10px;
+    padding: 0px;
+    align-items: flex-start;
+  }
+  
+  .container-list img {
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 50px;
+  }
+  
+  .container-30-70{
+    display: flex;
+    justify-content: space-between;
+    /* text-align options: left, center, right, justify */
+    text-align: left;
+    align-items: center;
+    margin: 0 0 0 0px;
+    /* height: 100vh; 
+    width: 100vw; */
+  }
+  
+  .column-left {
+    flex: 0 0 30%; /* 30% width */
+    padding: 0 10px; /* Adjust padding as needed */
+    padding-right: 50px;
+  }
+  
+  .column-left > p.title {
+    font-size: xx-large;
+    margin-bottom: 10px;
+  }
+  
+  .column-right {
+    flex: 0 0 calc(70% - 50px); /* 70% width minus 50px margin */
+    padding: 0 10px; /* Adjust padding as needed */
+    margin-left: 50px;
+  }
+  
+  .bullet-point {
+    background-image: var(--bullet-icon); /* Use the CSS variable */
+    background-size: cover;
+    background-position: center;
+    width: 20px; 
+    height: 20px;
+    min-width: 20px; /* Add this line */
+    min-height: 20px; /* Add this line */
+    margin-right: 20px; /* Adjust margin as needed */
+    align-items: top  ;
+  }
+  
+  .container-list > .bullet-point {
+    margin-top: 15px;
+  }
+    
+  .list-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* border: dashed 1px red; */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    padding: 8px;
+    text-align: left;
+    font-size: xx-large;
+    color: white;
+  }
+  
+  td { 
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Alternate table row colors */
+  /* tr:nth-child(even) {
+    background-color: #f2f2f2;
+  } */
+  
+  .rounded-box-gradient {
+    border: 1px solid var(--r-box-color2);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: var(--box-image);
+    background-size: cover; 
+  }
+  
+  .rounded-box-gradient h1, h2, h3, h4 {
+    color: var(--r-heading-color);
+    padding-top: 5px;
+  }
+  
+  
+  .rounded-box-gradient {
+    border: 1px solid var(--r-box-color2);
+    color: var(--r-heading-color);
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 1.0; 
+    background: linear-gradient(to top right, var(--box-color-start) 0%, var(--box-color-end) 100%);
+  }
+  
+  .rounded-box {
+    border: 1px solid var(--r-box-color1);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+  }
+  
+  .rounded-box p {
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+  }
+  
+  .container-list.rounded-box {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  
+  .rounded-box h2, .rounded-box h3, .rounded-box h4 {
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*********************************************
+    * END - GitHub Theme stuff (@jefeish)
+    *********************************************/

@@ -1,5 +1,5 @@
 /**
- * @desciption: A claculator module that can add, subtract, multiply, modulo, 
+ * @description: A claculator module that can add, subtract, multiply, modulo, 
  *              exponent and divide by taking in two numbers and an operator.
  *              It throws an error if the operator is invalid or if the second
  *              number is zero and the operator is division.  

@@ -24,7 +24,8 @@
 	letter-spacing: 0em;
 	padding-top: 0.5vh;
 	padding-bottom: 0.5vh;	
-	background-color: transparent;
+	/* background-color: transparent; */
+	background-color: aqua;
 }
 
 /* Bottom position for the Title-Footer footer when both progress bar and TOC-Progress are visible */

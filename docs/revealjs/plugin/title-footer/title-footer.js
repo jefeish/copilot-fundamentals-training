@@ -67,12 +67,12 @@ title_footer.initialize = function (title, footer, background) {
     var createHeaderFooter = function (id) {
         var header_footer = document.createElement(id === 'header' ? 'header' : 'footer');
         header_footer.setAttribute('id', 'title-' + id);
-        header_footer.setAttribute('style', 'background:' + this.background + '; text-align: ' + (id === 'header' ? 'right' : 'left') + '; padding: 0 20px;');
+        header_footer.setAttribute('style', 'background:' + this.background + '; text-align: ' + (id === 'header' ? 'right' : 'left') + '; padding: 0 10px;');
 
         var header_footer_p = document.createElement('p');
         header_footer_p.style.display = 'flex'; // Set the display to flex
         header_footer_p.style.alignItems = 'center'; // Center items vertically
-        header_footer_p.style.marginTop = id === 'header' ? '0px' : '-10px'; // Add negative top margin to move the SVG and the text up
+        header_footer_p.style.marginTop = id === 'header' ? '0px' : '-15px'; // Add negative top margin to move the SVG and the text up
         header_footer_p.style.justifyContent = id === 'header' ? 'flex-end' : 'flex-start'; // Align items to the right if it's a header, otherwise to the left
 
         // Create a container for the SVG
