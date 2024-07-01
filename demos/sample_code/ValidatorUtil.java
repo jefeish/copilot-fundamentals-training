@@ -29,19 +29,9 @@ public class ValidatorUtil {
 
     /**
      * @description: This method checks if the input is a valid phone number.
-     * This method checks if the input is a valid phone number of the format:
-     *  String input4 = "718 419 4126";
-        String input5 = "718-419-4126";
-        String input6 = "(718)419 4126";
-        String input7 = "(718)4194126";
-        String input8 = "7184194126";
-        Numbers starting with 555 are not valid phone numbers, including (555)
-        String input9 = "555-419-4126";
-        String input10 = "(555)-419-4126";
-        String input11 = "5554194126";
      */
     public static boolean isValidPhoneNumber(String input) {
-        
+        return input.matches("^\\d{3}-\\d{3}-\\d{4}$");
     }
 
 }
