@@ -5,8 +5,11 @@
 
 <img width="50%" src="images/office-hours.svg">
 
-<br><br>
 ## Let's build from here ...
 
 <!-- Add some speaker notes -->
-Note: 
+Note:
+
+- Introduction
+- Todays Topic is Prompting !
+- I'll spend the first 5 minutes reviewing some 'Prompting Cheat-Sheets' before we begin the actual demo session.

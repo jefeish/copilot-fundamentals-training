@@ -73,3 +73,15 @@
 
 <!-- Add some speaker notes -->
 Note:
+
+**The definition of a prompt:** A prompt is the collection of code and supporting contextual information that the GitHub Copilot extension sends to GitHub to generate suggestions.
+
+The GitHub Copilot extension sends a prompt  when the user pauses typing while working on a file or use a designated keyboard shortcut to request a suggestion.
+
+- **Let's review some prompting strategies for working with GitHub Copilot:**
+
+1. **Understand Limitations and Leverage Capabilities:** GitHub Copilot's generated code is directly influenced by its training data. It's essential to provide precise prompts since Copilot doesn't function like a traditional compiler and cannot anticipate user intentions.
+
+2. **Context is Key:** Language models like Copilot thrive on clear and understandable context.
+
+3. **Focus on Code Tasks:** GitHub Copilot is designed primarily for coding tasks. Whether it's suggesting algorithms, refactoring code, or generating unit tests, it thrives when the prompt is centered around programming challenges.

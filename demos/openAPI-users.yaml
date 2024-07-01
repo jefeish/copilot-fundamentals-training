@@ -1,0 +1,465 @@
+openapi: 3.0.0
+info:
+  title: CRUD API for Users with userRoles, Emails, and Profiles
+  version: 1.0.0
+paths:
+  /users:
+    get:
+      summary: Retrieve all users
+      responses:
+        '200':
+          description: A list of users
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+    post:
+      summary: Create a new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserInput'
+      responses:
+        '201':
+          description: User created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+  /users/{userId}:
+    parameters:
+      - name: userId
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Retrieve a user by ID
+      responses:
+        '200':
+          description: User found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '404':
+          description: User not found
+    put:
+      summary: Update a user by ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserInput'
+      responses:
+        '200':
+          description: User updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '404':
+          description: User not found
+    delete:
+      summary: Delete a user by ID
+      responses:
+        '204':
+          description: User deleted successfully
+        '404':
+          description: User not found
+
+  /users/{userId}/userRoles:
+    parameters:
+      - name: userId
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Retrieve user userRoles by user ID
+      responses:
+        '200':
+          description: User userRoles retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Role'
+        '404':
+          description: User not found
+
+  /users/{userId}/userRoles/{roleId}:
+    parameters:
+      - name: userId
+        in: path
+        required: true
+        schema:
+          type: integer
+      - name: roleId
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Retrieve a role by ID for a user
+      responses:
+        '200':
+          description: Role found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+        '404':
+          description: Role or user not found
+
+    post:
+      summary: Associate a user with a role
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: integer
+                  description: The ID of the user to associate with a role.
+                roleId:
+                  type: integer
+                  description: The ID of the role to associate with the user.
+      responses:
+        '201':
+          description: User associated with role successfully
+        '400':
+          description: Invalid input
+        '404':
+          description: User or role not found
+
+    delete:
+      summary: Remove a role from a user
+      responses:
+        '204':
+          description: Role removed successfully
+        '404':
+          description: Role or user not found
+
+  /userRoles:
+    get:
+      summary: Retrieve all userRoles
+      responses:
+        '200':
+          description: A list of userRoles
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Role'
+
+    post:
+      summary: Create a new role
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoleInput'
+      responses:
+        '201':
+          description: Role created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+
+  /userRoles/{roleId}:
+    parameters:
+      - name: roleId
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Retrieve a role by ID
+      responses:
+        '200':
+          description: Role found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+        '404':
+          description: Role not found
+
+    put:
+      summary: Update a role by ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoleInput'
+      responses:
+        '200':
+          description: Role updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+        '404':
+          description: Role not found
+
+    delete:
+      summary: Delete a role by ID
+      responses:
+        '204':
+          description: Role deleted successfully
+        '404':
+          description: Role not found
+
+  /emails:
+    get:
+      summary: Retrieve all emails
+      responses:
+        '200':
+          description: A list of emails
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Email'
+
+    post:
+      summary: Create a new email
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EmailInput'
+      responses:
+        '201':
+          description: Email created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Email'
+
+  /emails/{emailId}:
+    parameters:
+      - name: emailId
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Retrieve an email by ID
+      responses:
+        '200':
+          description: Email found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Email'
+        '404':
+          description: Email not found
+
+    put:
+      summary: Update an email by ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EmailInput'
+      responses:
+        '200':
+          description: Email updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Email'
+        '404':
+          description: Email not found
+
+    delete:
+      summary: Delete an email by ID
+      responses:
+        '204':
+          description: Email deleted successfully
+        '404':
+          description: Email not found
+
+  /profiles:
+    get:
+      summary: Retrieve all profiles
+      responses:
+        '200':
+          description: A list of profiles
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Profile'
+
+    post:
+      summary: Create a new profile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProfileInput'
+      responses:
+        '201':
+          description: Profile created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Profile'
+
+  /profiles/{userId}:
+    parameters:
+      - name: userId
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Retrieve a profile by ID
+      responses:
+        '200':
+          description: Profile found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Profile'
+        '404':
+          description: Profile not found
+
+    put:
+      summary: Update a profile by ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProfileInput'
+      responses:
+        '200':
+          description: Profile updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Profile'
+        '404':
+          description: Profile not found
+
+    post:
+      summary: Create a profile for a user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProfileInput'
+      responses:
+        '201':
+          description: Profile created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Profile'
+  
+    delete:
+      summary: Delete a profile by ID
+      responses:
+        '204':
+          description: Profile deleted successfully
+        '404':
+          description: Profile not found
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: John Doe
+        email:
+          type: string
+          example: john.doe@example.com
+        userRoles:
+          type: array
+          items:
+            $ref: '#/components/schemas/Role'
+        profile:
+          $ref: '#/components/schemas/Profile'
+
+    UserInput:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+
+    Role:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: Admin
+
+    RoleInput:
+      type: object
+      properties:
+        name:
+          type: string
+
+    Email:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        email:
+          type: string
+          example: john.doe@example.com
+
+    EmailInput:
+      type: object
+      properties:
+        email:
+          type: string
+
+    Profile:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        bio:
+          type: string
+          example: A software engineer passionate about coding
+
+    ProfileInput:
+      type: object
+      properties:
+        bio:
+          type: string

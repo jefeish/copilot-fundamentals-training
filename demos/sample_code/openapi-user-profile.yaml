@@ -1,0 +1,51 @@
+# OPEN API based UserProfile API schema definition
+
+info:
+  title: UserProfile API
+  description: API to manage user profiles
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+paths:
+  /users/{username}:
+    get:
+      summary: Get user profile
+      operationId: getUserProfile
+      parameters:
+        - name: username
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: User Profile response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                  email:
+                    type: string
+                  first_name:
+                    type: string
+                  last_name:
+                    type: string
+                  address:
+                    type: object
+                    properties:
+                      street:
+                        type: string
+                      city:
+                        type: string
+                      state:
+                        type: string
+                      zip:
+                        type: string
+                      country:
+                        type: string
+                example:
+                  username: john_doe
+                  email:

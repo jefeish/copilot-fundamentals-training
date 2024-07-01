@@ -35,3 +35,4 @@
 
 <!-- Add some speaker notes -->
 Note:
+Employ your prompts across various methods and scenarios.

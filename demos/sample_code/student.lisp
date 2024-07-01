@@ -15,7 +15,7 @@
 
 
 (defclass training-system ()
-  ((students :initform () :accessor system-students)
+  ((students :initform () :accessor system-students) 
    (courses :initform () :accessor system-courses)))
 
 
