@@ -6,7 +6,7 @@
 
 ### :pencil2: Exercise 1: Ask **Copilot Chat** to explain the code
 
-- Open the [`MysteryFunction.java`](../sample-code/MysteryFunction.java) file (Tab). 
+- Open the [`MysteryFunction.java`](../sample_code/MysteryFunction.java) file (Tab). 
 
   Request an explanation in **Copilot Chat**
 
@@ -22,7 +22,7 @@
 
 ### :pencil2: Exercise 2: Ask **Copilot Chat** to document the code
 
-- Open the [`MysteryFunction.java`](../sample-code/MysteryFunction.java) file (Tab). 
+- Open the [`MysteryFunction.java`](../sample_code/MysteryFunction.java) file (Tab). 
 
   Ask **Copilot Chat** to document the code
 

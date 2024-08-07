@@ -163,7 +163,7 @@ Try non-ASCII character sets
 
 - **Description**
   
-  - Open the [/demos/sample-code/README.md](/demos/sample-code/README.md) file and follow the instructions
+  - Open the [/demos/sample_code/README.md](/demos/sample_code/README.md) file and follow the instructions
 
   - Remember to "ask Copilot at every level”
     - Class
@@ -171,7 +171,7 @@ Try non-ASCII character sets
     - Single instruction
 
 
-- **Repository Link:** Inside the `/copilot-fundamentals-training` Repo open, [/demos/sample-code/README.md](/demos/sample-code/README.md)
+- **Repository Link:** Inside the `/copilot-fundamentals-training` Repo open, [/demos/sample_code/README.md](/demos/sample_code/README.md)
 
 ---
 

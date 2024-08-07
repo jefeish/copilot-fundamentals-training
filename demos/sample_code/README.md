@@ -2,7 +2,7 @@
 
 ## Step 1 
 
-1. Open the any of the sample files in `/demos/sample-code/`
+1. Open the any of the sample files in `/demos/sample_code/`
 
 ## Step 2: Try to use language specific annotations
 
