@@ -2,13 +2,13 @@
 
 ( :clock10: 5 min )
 
-## Copilot Chat - Refactoring Code
+## Copilot Chat - Fixing Code
 
 ![cover](images/copilot-chat-cover-wide-2.png)
 
-### :pencil2: Exercise 1: Use `Copilot Chat` to refactor your code, for many languages
+### :pencil2: Exercise 1: Use `Copilot Chat` to fix your code
 
-- Open the  [`FactorialCalculator.java`](../sample-code/FactorialCalculator.java) file and ask **Copilot Chat** to 'improve' the code
+- Open the  [`calculator-bug.js`](../sample-code/calculator-bug.js) file and ask **Copilot Chat** to 'improve' the code
 
     ```
     can you improve the structure and readability of the method that calculates the factorial
