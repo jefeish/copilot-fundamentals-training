@@ -8,7 +8,7 @@
 
 ### :pencil2: Exercise 1: Use `Copilot Chat` to fix your code
 
-- Open the  [`calculator-bug.js`](../sample-code/calculator-bug.js) file and ask **Copilot Chat** to 'fix' the code
+- Open the  [`calculator-bug.js`](../sample_code/calculator-bug.js) file and ask **Copilot Chat** to 'fix' the code
 
     ```
     @workspace /fix the problems in my code
