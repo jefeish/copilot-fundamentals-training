@@ -9,7 +9,6 @@ A small demo project to exercise the basic capabilities of Copilot in your IDE. 
 
 >Note: The demo/workshop only uses **Copilot** features to complete the solution.
 
-
 ## Pre-Requisits
 
 - Make sure to have **Copilot**, correctly installed & working in your IDE !

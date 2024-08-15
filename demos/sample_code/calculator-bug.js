@@ -23,7 +23,7 @@ const calculator = (num1, num2, operator) => {
         return num1 % (num2 || 1); 
     } else if (operator === '^') {
         return num1 ** num2;
-    } else if (operator === '/' && num2 !== 0) {
+    } else if (operator === '/' && num1 !== 0) {
         return num1 / num2;
     } else if (num2 === 0 && operator === '/'){
         throw new Error('Division by zero');
